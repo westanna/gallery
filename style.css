@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: #C5B2CF;
+    font-family: "Irish Grover", serif;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+    position: fixed; /* Фиксация хедера */
+    top: 0; /* Расположение у верхнего края */
+    width: 100%; /* Ширина на весь экран */
+    z-index: 1;
+    background-color: #C5B2CF;
+}
+header .logo {
+    display:flex;
+    align-items:center;
+    font-size: 40px;
+    margin-left: -50px;
+
+}
+header nav a{
+    text-decoration: none;
+    margin: 0 25px;
+    color: black;
+    font-size: 20px;
+    width: 45%;
+
+}
+.one { 
+    display: flex; 
+    align-items: center; /* Выравнивание по вертикали */ 
+    justify-content: space-between; /* Распределение пространства */ 
+    margin-top: 150px;
+} 
+.text { 
+    max-width: 40%; /* Ограничение ширины текста */ 
+    margin-left: 50px;
+    font-size: 25px;
+} 
+.one img { 
+    max-width: 40%; /* Ограничение ширины изображения */ 
+    height: auto; /* Сохранение пропорций */ 
+    margin-right: 50px;
+}
+
